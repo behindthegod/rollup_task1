@@ -40,6 +40,8 @@
     var img = document.createElement('img');
     img.className = 'js-image';
     img.src = imgJS;
-    document.body.append(img);
+    var h1 = document.createElement('h1');
+    h1.textContent = 'I love JavaScript';
+    document.body.append(img, h1);
 
 })();
